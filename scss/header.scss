@@ -1,0 +1,106 @@
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: blueviolet;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+.header a{
+  color: white;
+}
+.left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex:1;
+  margin-left: 450px;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-us{
+  margin-right: 24px;
+}
+.products{
+  margin-right: 24px;
+}
+.contact{
+  margin-right: 24px;
+}
+.delivery{
+  margin-right: 24px;
+}
+.logo img{
+  width: 60px;
+  border-radius: 30px;
+  margin-right: 24px;
+}
+.email a,
+.phone a,
+.about-us a,
+.contact a,
+.delivery a,
+.products a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 24px;
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.contact .current{
+  opacity: 0.9;
+  cursor:pointer
+}
+.products .current{
+  opacity: 0.9;
+}
+.delivery .current{
+  opacity: 0.9;
+}
+.about-us .current{
+  opacity: 0.9;
+}
+.email a:hover,
+.phone a:hover,
+.about-us a:hover,
+.contact a:hover,
+.delivery a:hover,
+.products a:hover{
+  opacity: 0.9;
+  cursor:pointer
+}
+.facebook img,
+.instagram img{
+  width:25px;
+  margin-right: 40px;
+  transition: all 1s;
+}
+.tik-tok img{
+  width:25px;
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+.facebook:hover,
+.instagram:hover,
+.tik-tok:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transform: translate(0px, -3px);
+}
+.logo:hover{
+  cursor: pointer;
+}

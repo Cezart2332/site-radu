@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="logo"><a href="index.html"><img src="imagini/logo.jpg"></a></div>
+        <div class="email"><a href="">&#9993; E-MAIL</a></div>
+        <div class="phone"><a href="">&#9990; TELEFON</a></div>
+      </div>
+      <div class="middle-section">
+        <div class="about-us"><a href="about.html">&#x272A; DESPRE NOI</a></div>
+        <div class="products"><a class="current" href="products.html">&#x2764; PRODUSE</a></div>
+        <div class="contact"><a href="contact.html">&#x270E; CONTACT</a></div>
+        <div class="delivery"><a href="">&#x2714; LIVRARE</a></div>
+      </div>
+      <div class="right-section">
+        <div class="facebook"><img src="imagini/facebook.png"></div>
+        <div class="instagram"><a href="https://www.instagram.com/alamode.ro/" target="_blank"><img src="imagini/instagram.png"></a></div>
+        <div class="tik-tok"><img src="imagini/tiktok.png"></div>
+      </div>
+    </div>
+    <div class="select-prodcuts">
+      <div class="product-select">
+        <select name="product-select" id="products">
+          <option value="Tarte">Tarte</option>
+          <option value="Torturi">Torturi</option>
+          <option value="Prajituri">Prajituri</option>
+          <option value="Cornulete">Cornulete</option>
+          <option value="Briose">Briose</option>
+        </select>
+      </div>
+      <div class="price-input">
+        <div class="field">
+          <p>Min</p>
+          <input type="number" class="input-min" value="2500">
+        </div>
+        <div class="field">
+          <p>Max</p>
+          <input type="number" class="input-max" value="7500">
+        </div>
+      </div>
+      <div class="range-input">
+        <input type="range" class="range-min" min="0" max="10000" value="5000" step="100">
+      </div>
+      <div id="rating">  
+        <label for="star">
+          <input type="radio" name="star" id="fivestar">
+          &#9733 &#9733 &#9733 &#9733 &#9733
+        </label>
+        <label for="star">
+          <input type="radio" name="star" id="fourstar">
+          &#9733 &#9733 &#9733 &#9733
+        </label>
+        <label for="star">
+          <input type="radio" name="star" id="threestar">
+          &#9733 &#9733 &#9733
+        </label>
+        <label for="star">
+          <input type="radio" name="star" id="twostar">
+          &#9733 &#9733
+         </label>
+      </div>
+      <div id="button">
+        <button id="search-button" type="submit">Search</button>
+      </div>
+    </div>
+    <div id="products-grid">
+      <div class="buy-product">
+        <img src="imagini/briose-1.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tarte-1.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tarte-2.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tarte-3.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tort-1.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tort-2.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/tort-3.jpg" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+      <div class="buy-product">
+        <img src="imagini/cornulete-1.webp" alt="">
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quidem praesentium blanditiis voluptatum culpa! Illum vitae voluptatum dignissimos itaque a.</p>
+        <button>Cumpara</button>
+      </div>
+    </div>
+  </body>
