@@ -289,8 +289,11 @@
 .buy-product p{
   font-size: 18px;
 }
-@media screen and (max-width: 600px) {
-  .products-grid{
+@media screen and (max-width: 950px) {
+  .produs {
+    width: 330px;
+  }
+  .product-grid{
     grid-template-columns: 1fr;
   }
   .end-title{
@@ -299,5 +302,11 @@
   }
   .end-description{
     font-size: 12px;
+  }
+  #products-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  body{
+    background-color: rgb(38, 1, 65);
   }
 }
