@@ -82,7 +82,7 @@
   margin-bottom: 50px;
 }
 
-.products-grid {
+.product-grid {
   max-width: 74%;
   display: grid;
   margin-left: auto;
@@ -117,6 +117,7 @@
   font-weight: 100;
   transition: all 0.3s;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .produs button:hover {
