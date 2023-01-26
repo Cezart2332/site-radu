@@ -35,10 +35,6 @@
   align-items: center;
 }
 
-.about-us {
-  margin-right: 24px;
-}
-
 .products {
   margin-right: 24px;
 }
@@ -59,7 +55,6 @@
 
 .email a,
 .phone a,
-.about-us a,
 .contact a,
 .delivery a,
 .products a {
@@ -85,13 +80,8 @@
   opacity: 0.9;
 }
 
-.about-us .current {
-  opacity: 0.9;
-}
-
 .email a:hover,
 .phone a:hover,
-.about-us a:hover,
 .contact a:hover,
 .delivery a:hover,
 .products a:hover {
@@ -124,13 +114,12 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 400px) and (orientation: landscape) {
   .header {
     max-width: 100%;
   }
   .email a,
 .phone a,
-.about-us a,
 .contact a,
 .delivery a,
 .products a {
@@ -141,9 +130,6 @@
     color: white;
     opacity: 0.7;
     transition: opacity 0.3s;
-  }
-  .about-us {
-    margin-right: 3px;
   }
   .products {
     margin-right: 3px;
@@ -168,6 +154,49 @@
   .tik-tok img {
     width: 12px;
     margin-right: 3px;
+    transition: all 0.3s;
+  }
+} /*# sourceMappingURL=header.css.map */
+@media screen and (min-width: 900px) and (orientation: portrait) {
+  .header {
+    max-width: 100%;
+  }
+  .email a,
+.phone a,
+.contact a,
+.delivery a,
+.products a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 9px;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  .products {
+    margin-right: 9px;
+  }
+  .contact {
+    margin-right: 9px;
+  }
+  .delivery {
+    margin-right: 9px;
+  }
+  .logo img {
+    max-width: 40px;
+    border-radius: 20px;
+    margin-right: 9px;
+  }
+  .facebook img,
+.instagram img {
+    width: 24px;
+    margin-right: 9px;
+    transition: all 0.3s;
+  }
+  .tik-tok img {
+    width: 24px;
+    margin-right: 9px;
     transition: all 0.3s;
   }
 }/*# sourceMappingURL=header.css.map */
