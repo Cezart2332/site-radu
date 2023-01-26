@@ -114,7 +114,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
   .header {
     max-width: 100%;
   }
@@ -157,7 +157,7 @@
     transition: all 0.3s;
   }
 }/*# sourceMappingURL=header.css.map */
-@media screen and (min-width: 900px) and (orientation: portrait) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
   .header {
     max-width: 100%;
   }
