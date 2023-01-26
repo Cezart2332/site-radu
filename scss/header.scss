@@ -21,9 +21,9 @@
 .middle-section{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   flex:1;
-  margin-left: 450px;
 }
 .right-section{
   display: flex;
@@ -103,4 +103,51 @@
 }
 .logo:hover{
   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .header{
+    max-width: 100%;
+  }
+  .email a,
+  .phone a,
+  .about-us a,
+  .contact a,
+  .delivery a,
+  .products a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    margin-right: 3px;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  .about-us{
+    margin-right: 3px;
+  }
+  .products{
+    margin-right: 3px;
+  }
+  .contact{
+    margin-right: 3px;
+  }
+  .delivery{
+    margin-right: 3px;
+  }
+  .logo img{
+    max-width: 20px;
+    border-radius: 10px;
+    margin-right: 3px;
+  }
+  .facebook img,
+  .instagram img{
+    width:12px;
+    margin-right: 3px;
+    transition: all 0.3s;
+  }
+  .tik-tok img{
+    width:12px;
+    margin-right: 3px;
+    transition: all 0.3s;
+  }
 }

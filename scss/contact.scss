@@ -18,20 +18,21 @@
   height: 600px;
 }
 .contact-form{
-  float: right;
-  margin-right: 300px;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .contact-form input{
   border: 1px solid black;
   margin-bottom: 10px;
   margin-top: 10px;
-  width: 400px;
+  max-width: 100%;
   padding-bottom: 4px;
   border-radius: 10px;
 }
 .contact-form textarea{
  border: 0.6px solid black;
- width: 500px;
+ max-width: 100%;
  margin-top: 10px;
  border-radius: 10px;
 }
@@ -43,7 +44,7 @@
   border: 0.6px solid black;
   margin-bottom: 10px;
   margin-top: 10px;
-  width: 400px;
+  max-width: 100%;
   padding-bottom: 5px;
   border-radius: 10px;
 }
