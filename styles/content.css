@@ -272,7 +272,11 @@
 }
 
 #rating input {
-  padding: 0.6rem;
+  padding: 1rem;
+}
+
+#rating label {
+  display: block;
 }
 
 #products {
@@ -339,7 +343,7 @@
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
   .produs {
-    width: 330px;
+    width: 320px;
   }
   .product-grid {
     grid-template-columns: 1fr;
@@ -360,7 +364,7 @@
 }
 @media screen and (max-width: 900px) and (orientation: landscape) {
   .produs {
-    width: 450px;
+    width: 320px;
   }
   .product-grid {
     grid-template-columns: 1fr 1fr;
